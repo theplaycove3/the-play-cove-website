@@ -13,9 +13,9 @@
         }
     </style>
 </head>
-<body class="text-gray-900">
+<body class="text-gray-900 relative">
 
-    <nav class="bg-[#df5875] text-white sticky top-0 z-50 shadow-md">
+    <nav class="bg-[#df5875] text-white sticky top-0 z-40 shadow-md">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             
             <div class="flex items-center">
@@ -55,8 +55,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             
             <div id="play" class="group bg-white shadow-lg border border-gray-100 flex flex-col justify-between h-full rounded-sm overflow-hidden">
-                <div class="overflow-hidden">
-                    <img src="image_6.png" alt="Soft Play Zone" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
+                <div class="overflow-hidden bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1566024287286-457247b70310?auto=format&fit=crop&w=600&q=80" alt="Soft Play Zone" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6 text-center flex-grow flex flex-col justify-between border-t-4 border-[#df5875]">
                     <div>
@@ -68,8 +68,8 @@
             </div>
 
             <div id="cafe" class="group bg-white shadow-lg border border-gray-100 flex flex-col justify-between h-full rounded-sm overflow-hidden">
-                <div class="overflow-hidden">
-                    <img src="image_7.png" alt="The Parent's Cafe" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
+                <div class="overflow-hidden bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="The Parent's Cafe" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6 text-center flex-grow flex flex-col justify-between border-t-4 border-[#56c6d9]">
                     <div>
@@ -81,8 +81,8 @@
             </div>
 
             <div id="birthdays" class="group bg-white shadow-lg border border-gray-100 flex flex-col justify-between h-full rounded-sm overflow-hidden">
-                <div class="overflow-hidden">
-                    <img src="image_8.png" alt="Birthday Parties" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
+                <div class="overflow-hidden bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8892bc952f?auto=format&fit=crop&w=600&q=80" alt="Birthday Parties" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6 text-center flex-grow flex flex-col justify-between border-t-4 border-[#df5875]">
                     <div>
@@ -94,8 +94,8 @@
             </div>
 
             <div id="kitty" class="group bg-white shadow-lg border border-gray-100 flex flex-col justify-between h-full rounded-sm overflow-hidden">
-                <div class="overflow-hidden">
-                    <img src="image_9.png" alt="Kitty Parties" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
+                <div class="overflow-hidden bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Kitty Parties" class="w-full h-56 object-cover transition duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6 text-center flex-grow flex flex-col justify-between border-t-4 border-[#56c6d9]">
                     <div>
@@ -153,6 +153,16 @@
     <footer class="bg-[#df5875] text-white text-center py-8 font-bold text-xs tracking-widest uppercase">
         <p>© 2026 The Play Cove. All rights reserved.</p>
     </footer>
+
+    <a href="https://wa.me/919306102439?text=Hi%20The%20Play%20Cove!%20I%20want%20to%20inquire%20about%20booking." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#1ebd5a] hover:scale-110 transition-all duration-300 flex items-center justify-center group"
+       aria-label="Chat with us on WhatsApp">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.031 21.054c-1.636 0-3.22-.44-4.606-1.272l-5.112 1.34 1.366-4.978c-.915-1.425-1.398-3.08-1.398-4.815C2.28 6.476 6.173 2.58 11.032 2.58c4.858 0 8.75 3.895 8.75 8.75s-3.892 8.75-8.75 8.75v-.026zm-4.72-2.12c1.378.817 2.973 1.255 4.61 1.255 4.373 0 7.925-3.55 7.925-7.926 0-4.374-3.552-7.924-7.926-7.924-4.373 0-7.925 3.55-7.925 7.924 0 1.545.426 3.056 1.233 4.382l-.805 2.935 3.013-.79.08.043c.005.002.008.002.008.002z"/>
+            <path d="M16.634 14.544c-.234-.117-1.385-.683-1.6-.763-.215-.08-.372-.117-.528.117-.156.234-.606.763-.743.92-.137.155-.274.175-.508.058-.234-.117-.988-.364-1.884-1.168-.696-.624-1.165-1.396-1.302-1.63-.137-.234-.015-.36.102-.477.104-.105.234-.273.35-.41.118-.137.157-.234.235-.39.078-.156.04-.293-.02-.41-.058-.117-.527-1.272-.722-1.74-.19-.46-.384-.397-.528-.405-.136-.008-.292-.01-.45-.01-.156 0-.41.06-.624.294-.215.234-.82 8.02-8.2 8.02s-2.09.84-2.285 1.15c-.196.312-.2 1.485.45 2.11 1.343.8 2.378.78 3.226.368 1.127.352 1.84 1.173 1.84 1.173s.77 1.353 1.84 1.353c1.07 0 2.228-.508 2.502-.96.274-.45.274-.84.195-.92-.078-.08-.234-.118-.468-.235z"/>
+        </svg>
+    </a>
 
 </body>
 </html>
